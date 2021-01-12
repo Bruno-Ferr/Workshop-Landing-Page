@@ -12,7 +12,7 @@ function sendMe() {
         body: JSON.stringify(lead)
     }
 
-    fetch("http://192.168.0.13:4000/form", options).then(res => {
+    fetch("localhost:4000/form", options).then(res => {
         document.getElementById('name').value = '';
         document.getElementById('email').value = '';
         document.getElementById('place').value = 'NY';
