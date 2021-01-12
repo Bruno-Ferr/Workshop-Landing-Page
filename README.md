@@ -1,7 +1,7 @@
 # Landing page for workshops
 This type of page was made to get the email of interested people in the workshop. 
 
-![](/assets/Page.png)
+![](/public/assets/Page.png)
 
 ## Features
 -[x] Responsive layout
