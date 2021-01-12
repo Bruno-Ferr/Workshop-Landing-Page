@@ -1,0 +1,24 @@
+{
+  "name": "PaginaDeCaptura",
+  "version": "1.0.0",
+  "description": "This type of page was made to get the email of interested people in the workshop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Ferr/Workshop-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruno-Ferr/Workshop-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Bruno-Ferr/Workshop-Landing-Page#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17"
+  }
+}

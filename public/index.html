@@ -18,16 +18,16 @@
             <div class="formContainer">
                 <h2 class="mb">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.</h2>
                 <p class="mb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <form action="">
+                <form action="" method="">
                     <input type="text" name="name" id="name" placeholder="Name">
                     <input type="email" name="email" id="email" placeholder="Email">
-                    <select name="place">
+                    <select id="place" name="place">
                         <option value="NY">New York</option>
                         <option value="FL">Florida</option>
                         <option value="CA">California</option>
                         <option value="NJ">New Jersey</option>
                     </select>
-                    <input type="submit" value="Subscribe">
+                    <button type="submit" onclick="sendMe()">Subscribe</button>
                 </form>
             </div>
         </section>
@@ -40,5 +40,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
